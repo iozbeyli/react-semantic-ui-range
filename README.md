@@ -3,8 +3,7 @@ This is a React Component range slider for Semantic UI
 
 It is developed based on https://github.com/tyleryasaka/semantic-ui-range
 
-This is the original version's 
-[demo](http://codepen.io/tyleryasaka/pen/KVqPbo)
+The demo for the project can be found here: https://iozbeyli.github.io/react-semantic-ui-range/
 
 The original library was using jQuery so I changed the parts that use jQuery to make it more compatible with React.
 
