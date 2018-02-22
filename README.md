@@ -13,7 +13,6 @@ Sample Usage
 
 ```javascript
 import React,{Component} from 'react';
-import PropTypes from 'prop-types';
 import { Slider } from 'react-semantic-ui-range'
 import 'semantic-ui-css/semantic.min.css';
 import {Segment,Grid,Label} from 'semantic-ui-react';
@@ -35,21 +34,41 @@ export default class App extends Component{
     return (
       <Grid padded>
         <Grid.Column width={16}>
-          <h1>Callback!</h1>
-          <p>
-            <Slider color="red" inverted={false} settings={{
-              start: this.state.value1,
-              min:0,
-              max:10,
-              step:1,
-              onChange: (value) => {
-                this.setState({
-                  value1:value
-                })
-              },
-            }}/>
-          </p>
-          <Label color="red">{this.state.value1}</Label>
+          <Segment>
+           <h1>Callback!</h1>
+            <p>
+              <Slider color="red" inverted={false} settings={{
+                start: this.state.value1,
+               min:0,
+                max:10,
+                step:1,
+                onChange: (value) => {
+                  this.setState({
+                    value1:value
+                  })
+                },
+              }}/>
+            </p>
+            <Label color="red">{this.state.value1}</Label>
+          </Segment>
+        </Grid.Column>
+        <Grid.Column width={16}>
+          <Segment>
+            <h1>Disabled!</h1>
+            <p>
+              <Slider color="red" disabled inverted={false} settings={{
+                start: this.state.value1,
+                min:0,
+                max:10,
+                step:1,
+                onChange: (value) => {
+                  this.setState({
+                    value1:value
+                  })
+                },
+              }}/>
+            </p>
+          </Segment>
         </Grid.Column>
         <Grid.Column width={16}>
           <Segment>
