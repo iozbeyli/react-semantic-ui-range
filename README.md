@@ -9,6 +9,10 @@ The original library was using jQuery so I changed the parts that use jQuery to 
 
 It is not fully developed yet and does not support all the functionalities that the original library provides.
 
+```
+  npm i react-semantic-ui-range
+```
+
 Sample Usage
 
 ```javascript
