@@ -48,6 +48,14 @@ export default class App extends Component{
       <Grid padded>
         <Grid.Column width={16}>
           <Segment>
+            <h1>Discrete</h1>
+            <p>
+              <Slider discrete color="red" inverted={false} settings={settings}/>
+            </p>
+          </Segment>
+        </Grid.Column>
+        <Grid.Column width={16}>
+          <Segment>
            <h1>Callback!</h1>
             <p>
               <Slider color="red" inverted={false}
