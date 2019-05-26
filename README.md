@@ -20,7 +20,7 @@ import { Slider } from "react-semantic-ui-range";
 import "semantic-ui-css/semantic.min.css";
 import { Label, Grid, Input } from "semantic-ui-react";
 
-const Controlled = props => {
+const App = props => {
   const [value, setValue] = useState(5);
 
   const settings = {
@@ -56,3 +56,5 @@ const Controlled = props => {
 
 export default App;
 ```
+
+
