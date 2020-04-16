@@ -1,6 +1,6 @@
 {
   "name": "@kassellabs/react-semantic-ui-range",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "A Slider React Component for Semantic-UI",
   "main": "build/index.js",
   "scripts": {
