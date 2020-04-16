@@ -1,5 +1,5 @@
 {
-  "name": "react-semantic-ui-range",
+  "name": "@kassellabs/react-semantic-ui-range",
   "version": "0.7.0",
   "description": "A Slider React Component for Semantic-UI",
   "main": "build/index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iozbeyli/react-semantic-ui-range.git"
+    "url": "git+https://github.com/kassellabs/react-semantic-ui-range.git"
   },
-  "author": "iozbeyli",
+  "author": "kassellabs",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iozbeyli/react-semantic-ui-range/issues"
+    "url": "https://github.com/kassellabs/react-semantic-ui-range/issues"
   },
-  "homepage": "https://github.com/iozbeyli/react-semantic-ui-range#readme",
+  "homepage": "https://github.com/kassellabs/react-semantic-ui-range#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
