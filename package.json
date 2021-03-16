@@ -1,6 +1,6 @@
 {
   "name": "react-semantic-ui-range",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "A Slider React Component for Semantic-UI",
   "main": "build/index.js",
   "scripts": {
